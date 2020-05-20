@@ -19,9 +19,14 @@ Movie Diary requires the following python libraries: datetime, matplotlib, os, p
 ### Methods
 
 The class has currently the following methods: 
-* `add_movie`: Add a movie to an existing dataframe and csv file and provide detail information (location, category, evaluation). If the csv does not exist yet, it creates a new one. 
+* `create_diary`: Create an empty dataframe as movie diary as well as en empty csv file. 
+* `add_movie`: Add a movie to an existing dataframe and csv file and provide detail information (location, category, evaluation). 
 * `delete_diary`: Delete the existing csv-file. Not recommended. 
 * `plot_top_movies_time`: Create a Seaborn Scatterplot with the 30 most watched movies over time. The category and the evaulation are also included in the scatterplot as hue and bubble-size. 
+
+The following methods are planned: 
+* `import_diary`: To import csv files in the movie diary. 
+* More plots and statistics. 
 
 
 ### Author
