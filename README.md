@@ -32,9 +32,9 @@ The following methods are planned:
 ### Author
 
 Maximilian Müller, Business Development Manager in the Renewable Energy sector. Now diving into the field of data analysis.
-GitHub: https://github.com/muellermax
-LinkedIn: https://www.linkedin.com/in/maximilian-m%C3%BCller-92106067/
-Kaggle: https://www.kaggle.com/muellermax
+* GitHub: https://github.com/muellermax
+* LinkedIn: https://www.linkedin.com/in/maximilian-m%C3%BCller-92106067/
+* Kaggle: https://www.kaggle.com/muellermax
 
 
 ### License
