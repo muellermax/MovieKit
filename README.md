@@ -16,7 +16,7 @@ from MovieDiary import MovieDiary
 ```
 Instantiate an object and create diary: 
 ```python
-diary = MovieDiary()
+diary = MovieDiary.MovieDiary()
 diary.create_diary()
 ```
 
