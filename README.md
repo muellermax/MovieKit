@@ -8,14 +8,32 @@ it includes information about this movie like a personal evaluation, where you'v
 cinema, netflix, etc.). 
 
 
-### Installation
+### Installation and usage
 
-The Movie Diary is not yet on Pypi yet. 
+Import the class: 
+```python
+from MovieDiary import MovieDiary
+```
+Instantiate an object and create diary: 
+```python
+diary = MovieDiary()
+diary.create_diary()
+```
+
+Add a movie: 
+```python
+diary.add_movie('Interstellar', 'At home', 'Blu Ray', 96)
+```
+
+Take a look at the movies you watched over time and your rating: 
+```python
+diary.plot_top_movies_time()
+```
 
 
 ### Dependencies
 
-Movie Diary requires the following python libraries: datetime, matplotlib, os, pandas, seaborn. 
+Movie Diary requires the following python libraries: matplotlib, pandas, seaborn. 
 
 
 ### Methods
