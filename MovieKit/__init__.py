@@ -1,0 +1,1 @@
+from .MovieDiary import MovieDiary

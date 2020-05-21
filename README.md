@@ -1,18 +1,18 @@
-# Movie Diary
+# MovieKit
 
 
 ### About
 
-Movie Diary is a python class to store the movies you've watched in a pandas dataframe and in a csv-file. Furthermore, 
-it includes information about this movie like a personal evaluation, where you've watched it and the category (e.g. 
-cinema, netflix, etc.). 
+MovieKit is a python package that includes the class MovieDiary to store the movies you've watched in a pandas dataframe 
+and in a csv-file. Furthermore, it includes information about this movie like a personal evaluation, where you've 
+watched it and the category (e.g. cinema, netflix, etc.). 
 
 
 ### Installation and usage
 
 Import the class: 
 ```python
-from MovieDiary import MovieDiary
+from MovieKit import MovieDiary
 ```
 Instantiate an object and create diary: 
 ```python
