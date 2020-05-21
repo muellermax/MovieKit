@@ -35,8 +35,6 @@ class MovieDiary:
 
         self.diary.to_csv('my_movie_diary.csv')
 
-        return self.diary
-
     def add_movie(self, movie, where, category, evaluation):
 
         """Function to add a new movie to an existing movie diary.
@@ -77,7 +75,7 @@ class MovieDiary:
         """A function to delete the existing csv file that stores the diary."""
 
         try:
-            os.remove('../.Tests/my_movie_diary.csv')
+            os.remove('my_movie_diary.csv')
             print('Diary deleted successfully.')
 
         except FileNotFoundError:
@@ -92,7 +90,7 @@ class MovieDiary:
             Seaborn scatterplot"""
 
         try:
-            movie_diary = pd.read_csv('../.Tests/my_movie_diary.csv', index_col=0)
+            movie_diary = pd.read_csv('my_movie_diary.csv', index_col=0)
             top_movies_list = movie_diary.groupby('movie').date.count().reset_index().sort_values('date',
                                                                                                   ascending=False).iloc[
                               :30]['movie']
