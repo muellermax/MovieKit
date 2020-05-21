@@ -16,13 +16,14 @@ from MovieKit import MovieDiary
 ```
 Instantiate an object and create diary: 
 ```python
-diary = MovieDiary.MovieDiary()
+diary = MovieDiary()
 diary.create_diary()
 ```
 
 Add a movie: 
 ```python
 diary.add_movie('Interstellar', 'At home', 'Blu Ray', 96)
+diary.add_movie('Inglourious Basterds', 'At home', 'DVD', 92)
 ```
 
 Take a look at the movies you watched over time and your rating: 
@@ -33,12 +34,12 @@ diary.plot_top_movies_time()
 
 ### Dependencies
 
-Movie Diary requires the following python libraries: matplotlib, pandas, seaborn. 
+MovieKit requires the following python libraries: matplotlib, pandas, seaborn. 
 
 
 ### Methods
 
-The class has currently the following methods: 
+The class MovieDiary has currently the following methods: 
 * `create_diary`: Create an empty dataframe as movie diary as well as en empty csv file. 
 * `add_movie`: Add a movie to an existing dataframe and csv file and provide detail information (location, category, 
 evaluation). 
