@@ -1,0 +1,10 @@
+README.md
+setup.py
+MovieKit/MovieDiary.py
+MovieKit/__init__.py
+MovieKit.egg-info/PKG-INFO
+MovieKit.egg-info/SOURCES.txt
+MovieKit.egg-info/dependency_links.txt
+MovieKit.egg-info/not-zip-safe
+MovieKit.egg-info/requires.txt
+MovieKit.egg-info/top_level.txt

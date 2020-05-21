@@ -54,7 +54,7 @@ class MovieDiary:
             The csv file my_movie_diary.csv"""
 
         try:
-            self.diary = pd.read_csv('../.Tests/my_movie_diary.csv', index_col=0)
+            self.diary = pd.read_csv('my_movie_diary.csv', index_col=0)
 
             new_entry = {'date': date.today(),
                          'movie': movie,

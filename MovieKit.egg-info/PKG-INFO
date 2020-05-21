@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: MovieKit
+Version: 1.1
+Summary: A python package to store movies you've watched
+Home-page: https://github.com/muellermax/
+Author: Maximilian Müller
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/muellermax/MovieKit/archive/1.1.tar.gz
+Description: UNKNOWN
+Keywords: movie,MovieKit,diary,moviediary,statistics
+Platform: UNKNOWN
